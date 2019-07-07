@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Audio Player</title>
+		<link rel="stylesheet" href="css/style.css" ></link>
+	</head>
+	<body>
+	<div id="container">
+	<div id="audio-img">
+	</div>
+	<div id="audio-player">
+		<div id="audio-info">
+			<span class="artist"><span> - <span class="title"><span>
+		</div>
+		<input id="volume" type="range" min="0" max="10" value="5">
+		<br>
+		<div id="audio-buttons">
+			<button id="prev"></button>
+			<button id="play"></button>
+			<button id="pause"></button>
+			<button id="stop"></button>
+			<button id="next"></button>
+		</div>
+		<div class="clearfix"></div>
+		<div id="tracker">
+		<div id="progressbar">
+			<span id="progress"></span>
+		</div>
+			<span id="duration"></span>
+		</div>
+		<div class="clearfix"></div>
+		<ul id="playlist">
+			<li song="Made In Heights  Forgiveness.mp3" cover="cover.jpg" artist="Made in Heights"> Forgiveness</li>
+			<li song="Made In Heights  Forgiveness.mp3" cover="cover.jpg" artist="Made in Heights"> Forgiveness</li>
+			<li song="Made In Heights  Forgiveness.mp3" cover="cover.jpg" artist="Made in Heights"> Forgiveness</li>
+			<li song="Made In Heights  Forgiveness.mp3" cover="cover.jpg" artist="Made in Heights"> Forgiveness</li>
+		</ul>
+	</div>
+	</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
